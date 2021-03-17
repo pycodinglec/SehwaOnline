@@ -170,10 +170,6 @@
   new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
     slidesPerView: 'auto',
     pagination: {
       el: '.swiper-pagination',
@@ -196,11 +192,16 @@
   /**
    * Porfolio isotope and filter
    */
+
   window.addEventListener('load', () => {
+    
     let portfolioContainer = select('.portfolio-container');
+
     if (portfolioContainer) {
+
       let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item'
+        itemSelector: '.portfolio-item',
+        filter: '.filter-grade1'
       });
 
       let portfolioFilters = select('#portfolio-flters li', true);
@@ -236,15 +237,10 @@
   new Swiper('.portfolio-details-slider', {
     speed: 400,
     loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
     },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
   });
 
   /**

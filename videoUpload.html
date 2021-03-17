@@ -48,20 +48,12 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="onlineMenual.html">영상 제작 방법</a></li>
-          <li><a class="nav-link scrollto" href="videoUpload.html">영상&forms 업로드</a></li>
-          <li class="dropdown"><a href="linkUpload.html"><span>수업 링크 바로가기</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto active" href=".">Home</a></li>
+          <li class="dropdown"><span>Menual</span> <i class="bi bi-chevron-down"></i>
             <ul>
-              <li><a href="https://docs.google.com/spreadsheets/d/1d8s0ZUXYVImydKly6UzZor0LNIQGuUz54waDnPtChrg/edit#gid=1963138076" target="_blank">1학년</a></li>
-              <li><a href="https://docs.google.com/spreadsheets/d/19u-2ipBm-wTEWUGO08WlcoR9hRPKFq6nI4uZrbq1YUk/edit#gid=1963138076" target="_blank">2학년</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="checkMenual.html"><span>출석부 바로가기</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="https://hssehwa-my.sharepoint.com/:x:/g/personal/winterfg_sehwa_hs_kr/EUgIvR0nPe1Ll6f0YYLoYlsB4X9GLeTPGrL5AHBd6Yki2Q?e=dGL7hG" target="_blank">1학년</a></li>
-              <li><a href="https://hssehwa-my.sharepoint.com/:x:/g/personal/winterfg_sehwa_hs_kr/EZNR7VXYP95NuoV1T-y_AQEBi4Bax1WibWvCFLtA3exEgQ?e=SWNQ2e" target="_blank">2학년</a></li>
-              <li><a href="checkMenual.html">출석 체크하는 방법(영상)</a></li>
+              <li><a href="menual_MadeOnline.html">수업 영상 제작 방법</a></li>
+              <li><a href="menual_Upload.html">영상&forms 업로드 방법</a></li>
+              <li><a href="menual_AttendanceSheet.html">출석 체크하는 방법(영상)</a></li>
             </ul>
           </li>
         </ul>
@@ -93,15 +85,19 @@
     
             <div class="section-title">
               <h2>영상&forms 업로드</h2>
-              <h5>제목을 자동으로 생성한 후, ① 비디오를 업로드 후  ② forms를 업로드 해주세요</h5>
+              <h5>① 제목을 자동으로 생성한 후, ② 제목을 복제하여, ③ 비디오를 업로드 후, ④ forms를 업로드 해주세요</h5>
               <br>
+              <div class="text-center">
+                <a href="menual_Upload.html" class="btn-get-started scrollto">영상&forms 업로드 방법은 이곳을 클릭해주세요.</a>
+              </div>
+              <br><br>
               <select class="jb-xx-large" id="year">
                 <option value="2021학년도" selected>2021학년도</option>
                 <option value="2022학년도">2022학년도</option>
                 <option value="2023학년도">2023학년도</option>
               </select>
               <select class="jb-xx-large" id="semester">
-                <option value="1학기" selected>1학기</option>
+                <option value="1학기">1학기</option>
                 <option value="2학기">2학기</option>
               </select>
              <hr />
@@ -110,52 +106,13 @@
             <div class="row" data-aos="fade-up" data-aos-delay="150">
               <div class="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-flters">
-                  <li data-filter=".filter-menual" selected>제목 생성 및 영상 업로드 방법</li>
-                  <li data-filter=".filter-grade1">1학년</li>
-                  <li data-filter=".filter-grade2">2학년</li>
+                  <li data-filter=".filter-grade1" class="filter-active">1학년</li>
+                  <li data-filter=".filter-grade2" class="filter">2학년</li>
                 </ul>
               </div>
             </div>
     
             <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="300">
-
-              <div class="col-lg-12 justify-content-center portfolio-item filter-menual">
-                    <div class="portfolio-details-slider swiper-container">
-                      <div class="swiper-wrapper align-items-center">
-
-                        <div class="swiper-slide" align="center">
-                          <img src="assets/img/uploadMenual/upload_1.png" alt="1" width="70%" height="70%">
-                        </div>
-        
-                        <div class="swiper-slide" align="center">
-                          <img src="assets/img/uploadMenual/upload_2.png" alt="2" width="70%" height="70%">
-                        </div>
-        
-                        <div class="swiper-slide" align="center">
-                          <img src="assets/img/uploadMenual/upload_3.png" alt="3" width="70%" height="70%">
-                        </div>
-        
-                        <div class="swiper-slide" align="center">
-                          <img src="assets/img/uploadMenual/upload_4.png" alt="4" width="70%" height="70%">
-                        </div>
-        
-                        <div class="swiper-slide" align="center">
-                          <img src="assets/img/uploadMenual/upload_5.png" alt="5" width="70%" height="70%">
-                        </div>
-        
-                        <div class="swiper-slide" align="center">
-                          <img src="assets/img/uploadMenual/upload_6.png" alt="6" width="70%" height="70%">
-                        </div>
-                        
-                        <div class="swiper-slide" align="center">
-                          <img src="assets/img/uploadMenual/upload_7.png" alt="7" width="70%" height="70%">
-                        </div>
-                        
-                      </div>
-                      <br><br>
-                      <div class="swiper-pagination"></div>
-                    </div>
-              </div>
 
             <div class="col-lg-12 justify-content-center portfolio-item filter-grade1">
               <table class="table">
@@ -405,10 +362,12 @@
                 <tbody>
                   <tr>
                     <td colspan="2" align="center"><textarea id="output1" style="width:100%; height:100px;"></textarea>
-                    <button onclick="func1()">① 제목 생성</button>
-                      <button onclick="copy_to_clipboard1()">② 자동 생성된 제목 복사하기</button>
+                      <div class="col-md-10 col-lg-10 justify-content-center">
+                      <button onclick="func1()">① 제목 생성하기</button>
+                      <button onclick="copy_to_clipboard1()">② 제목 복사하기</button>
                       <a href="https://web.microsoftstream.com/upload" target="_blank"><button >③ Stream으로 이동</button></a>
                       <a href="https://forms.office.com/Pages/ShareFormPage.aspx?id=3MpC6IoW506XpebWof3rtQYdmw6pKBNFlwFLnbh3qc1UNURBUzNXSkdBVzlFSVlVUjZKN0cxVlBKMy4u&sharetoken=h44nEoSbSrbkiCisHqNT" target="_blank"><button >④ forms로 이동</button></a>
+                    </div>
                     </td>
                   </tr>
                 </tbody>
@@ -666,11 +625,13 @@
                 </thead>
                 <tbody>
                   <tr>
+                    <div class="col-md-10 col-lg-10 justify-content-center">
                     <td colspan="2" align="center"><textarea id="output2" style="width:100%; height:100px;"></textarea>
-                    <button onclick="func2()">①제목 생성</button>
-                      <button onclick="copy_to_clipboard2()">②자동 생성된 제목 복사하기</button>
-                      <a href="https://web.microsoftstream.com/upload" target="_blank"><button >③Stream으로 이동</button></a>
+                    <button onclick="func2()">① 제목 생성하기</button>
+                      <button onclick="copy_to_clipboard2()">② 제목 복사하기</button>
+                      <a href="https://web.microsoftstream.com/upload" target="_blank"><button >③ Stream으로 이동</button></a>
                       <a href="https://forms.office.com/Pages/ShareFormPage.aspx?id=3MpC6IoW506XpebWof3rtQYdmw6pKBNFlwFLnbh3qc1UNURBUzNXSkdBVzlFSVlVUjZKN0cxVlBKMy4u&sharetoken=h44nEoSbSrbkiCisHqNT" target="_blank"><button >④ forms로 이동</button></a>
+                    </div>
                     </td>
                   </tr>
                 </tbody>
@@ -706,10 +667,6 @@
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="onlineMenual.html">영상 제작 방법</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">영상&forms 업로드</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="linkUpload.html">수업 링크 바로가기</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="checkMenual.html">출석부 바로가기</a></li>
             </ul>
           </div>
         </div>
@@ -727,7 +684,7 @@
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/ -->
-          Designed by <a href="https://bootstrapmade.com/"></a>BootstrapMade</a>
+          Designed by <a href="https://bootstrapmade.com/"></a>BootstrapMade</a> / Editing by Yunhee
         </div>
       </div>
     </div>
