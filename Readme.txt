@@ -15,14 +15,14 @@
  - section #4. footer : index.html과 동일
  
 3. manual_MadeOnline.html
- - video & forms upload page
+ - how to create video
  - section #1. nav : index.html과 동일
  - section #2. breadcrumbs : 우측 주소
  - section #3. service : 영상 제작 방법 제공(5가지)
  - section #4. footer : index.html과 동일
 
 4. manual_Upload.html
- - how to upload video & forms page
+ - how to upload video and forms
  - section #1. nav : index.html과 동일
  - section #2. breadcrumbs : 우측 주소
  - section #3. portfolio : 영상&forms 업로드 방법 제공 - slider & swiper 사용
