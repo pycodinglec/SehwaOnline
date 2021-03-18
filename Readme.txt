@@ -22,14 +22,14 @@
  - section #4. footer : index.html과 동일
 
 4. manual_Upload.html
- - video & forms upload page
+ - how to upload video & forms page
  - section #1. nav : index.html과 동일
  - section #2. breadcrumbs : 우측 주소
  - section #3. portfolio : 영상&forms 업로드 방법 제공 - slider & swiper 사용
  - section #4. footer : index.html과 동일
 
 5. manual_AttendanceSheet.html
- - video & forms upload page
+ - how to check Attendance Sheet page
  - section #1. nav : index.html과 동일
  - section #2. breadcrumbs : 우측 주소
  - section #3. portfolio : 출석 체크하는 방법(영상 2가지) - row/col container
