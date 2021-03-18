@@ -29,7 +29,7 @@
  - section #4. footer : index.html과 동일
 
 5. manual_AttendanceSheet.html
- - how to check Attendance Sheet page
+ - how to check Attendance Sheet
  - section #1. nav : index.html과 동일
  - section #2. breadcrumbs : 우측 주소
  - section #3. portfolio : 출석 체크하는 방법(영상 2가지) - row/col container
